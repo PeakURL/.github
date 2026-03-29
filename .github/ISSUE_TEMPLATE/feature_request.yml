@@ -1,0 +1,42 @@
+name: Feature Request
+description: Propose a focused improvement for a PeakURL project.
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please describe the problem and the improvement you want to see. Keep requests practical and focused.
+  - type: input
+    id: repository
+    attributes:
+      label: Repository
+      description: Which PeakURL repository is this request for?
+      placeholder: PeakURL/PeakURL
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What problem are you trying to solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed Solution
+      description: Describe the change you would like to see.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Note any alternatives you considered.
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Use cases, screenshots, constraints, or related discussions.
