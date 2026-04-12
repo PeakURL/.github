@@ -13,6 +13,7 @@ Designed to be straightforward to install, simple to operate, and compatible wit
 ## Get Started
 
 - [PeakURL Repository](https://github.com/PeakURL/PeakURL)
+- [PeakURL in a container](https://peakurl.org/docs/docker)
 - [Documentation](https://peakurl.org/docs)
 
 ## Official Extensions
