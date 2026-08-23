@@ -1,37 +1,36 @@
 # Security Policy
 
-## Reporting a Vulnerability
+## Reporting a Security Vulnerability
 
-If you believe you have found a security vulnerability in an official PeakURL
-repository, please do not open a public GitHub issue.
+> [!IMPORTANT]
+> Do not report security vulnerabilities through public GitHub issues, or pull requests.
 
-Instead, report it privately to:
+If you have identified a potential security vulnerability in any official PeakURL repository, please submit a confidential report through our secure contact portal:
 
-- `security@peakurl.org`
+- **Security Report Portal**: [Submit a Security Report](https://peakurl.org/contact?topic=security&subject=Security+vulnerability+report)
 
-When possible, include:
+### Information to Include
 
-- a clear description of the issue
-- the affected repository, version, or deployment context
-- steps to reproduce
-- proof of concept details, if available
-- any suggested mitigation or fix
+To facilitate prompt investigation and remediation, please provide the following information where available:
 
-## What to Expect
+- A detailed description of the vulnerability and its potential impact.
+- The affected repository, branch, version, or deployment context.
+- Reproducible demonstration steps or a minimal proof-of-concept.
+- Any suggested mitigations, patches, or remediation steps.
 
-PeakURL maintainers will review the report and respond as soon as practical.
+---
 
-The usual process is:
+## Vulnerability Handling Procedure
 
-1. acknowledge the report
-2. validate and assess the issue
-3. prepare a fix or mitigation
-4. publish the fix through the normal release process
+Upon receipt of a vulnerability report, project maintainers will execute the following procedure:
 
-If the issue is confirmed, we will aim to handle disclosure responsibly and
-avoid exposing users to unnecessary risk before a fix is available.
+1. **Acknowledgment**: Confirm receipt of the disclosure within 48 business hours.
+2. **Assessment**: Validate the vulnerability, determine its severity, and evaluate affected repositories.
+3. **Remediation**: Develop, review, and test security patches across supported versions.
+4. **Coordinated Disclosure**: Publish security releases through official distribution channels alongside appropriate remediation guidance.
 
-## Scope
+---
 
-This policy applies to official PeakURL repositories unless a repository
-includes a more specific security policy of its own.
+## Policy Scope
+
+This policy applies to all official repositories maintained under the PeakURL organization unless a repository specifies a distinct, project-specific security policy.

@@ -1,57 +1,70 @@
 # Contributing to PeakURL
 
-Thank you for taking the time to contribute to PeakURL.
+Thank you for your interest in contributing to PeakURL.
 
-This repository provides the default community health files for the PeakURL
-organization. In most cases, implementation work will happen in one of the
-project repositories, but the expectations below apply across the organization.
+This repository establishes organization-wide contributor standards and shared health guidelines for all repositories maintained under the PeakURL organization.
 
-## Before You Start
+---
 
-Please review these documents first:
+## Before You Begin
+
+Please review the organization policies prior to contributing:
 
 - [Code of Conduct](CODE_OF_CONDUCT.md)
 - [Security Policy](SECURITY.md)
 - [Support Guide](SUPPORT.md)
 
-If the repository you are contributing to has its own `README.md`,
-`CONTRIBUTING.md`, or development setup guide, follow the project-specific
-guidance there first.
+If a specific project repository provides its own `CONTRIBUTING.md`, `README.md`, or developer documentation, the repository-specific guidelines take precedence.
 
-## Ways to Contribute
+---
 
-- Report reproducible bugs
-- Improve documentation
-- Propose focused product improvements
-- Submit well-scoped pull requests
-- Help refine installation, release, and contributor workflows
+## Issue-First Workflow
+
+Across all repositories in the PeakURL organization, **contributors must open a GitHub Issue and establish alignment before submitting a Pull Request.**
+
+### Rationale
+
+- **Technical Consensus**: Discussing requirements and design beforehand ensures that proposed changes align with organizational architecture and roadmaps.
+- **Systematic Triage**: For defect reports, an issue allows maintainers to reproduce and validate the problem prior to code changes.
+- **Resource Efficiency**: Establishing ownership on issues prevents redundant work across the community.
+
+### Contribution Process
+
+1. **Review Existing Issues**: Search the target repository's issue tracker to confirm the topic has not already been addressed.
+2. **Open a Comprehensive Issue**:
+   - **Bug Reports**: Detail exact reproduction steps, expected versus actual behavior, runtime environment information, and relevant error logs.
+   - **Feature Requests**: Clearly define the user problem, anticipated benefits, and proposed technical approach.
+3. **Obtain Maintainer Confirmation**: For non-trivial or architectural changes, please wait for maintainer review and approval before beginning implementation.
+4. **Reference the Issue in the Pull Request**: Every pull request must explicitly link its corresponding issue (e.g., `Fixes #123` or `Closes #123`).
+
+> [!IMPORTANT]
+> Pull requests submitted without a corresponding issue or adequate context will be placed on hold until an issue is opened and the scope is reviewed with maintainers.
+
+---
 
 ## Contribution Expectations
 
-We value contributions that are:
+All contributions across organization repositories are expected to adhere to the following principles:
 
-- clear in scope
-- technically coherent
-- tested or otherwise verified where practical
-- documented when behavior or setup changes
+- **Atomic Scope**: Keep pull requests focused on resolving one specific issue without including unrelated changes.
+- **Architectural Coherence**: Adhere to established language standards, coding conventions, and architectural boundaries of the target project.
+- **Verification and Testing**: Execute all project test suites, linters, and formatters locally before submitting pull requests.
+- **Documentation**: Provide corresponding documentation updates in the same pull request whenever modifying user-facing behavior, runtime configurations, or APIs.
 
-Please avoid large, unfocused changes that mix unrelated fixes or product
-direction changes without prior discussion.
+---
 
-## Pull Requests
+## Pull Request Submission
 
-When opening a pull request:
+When opening a pull request in any PeakURL repository:
 
-- explain the problem being solved
-- summarize the user-facing or maintainer-facing impact
-- mention tradeoffs or follow-up work when relevant
-- include verification steps
+- Link the corresponding issue (`Fixes #123` or `Closes #123`).
+- Complete the project's pull request template, providing a clear summary of modifications and verification steps.
+- Ensure all continuous integration checks pass without errors.
 
-If a change is large, architectural, or product-shaping, discuss the direction
-before investing heavily in implementation.
+---
 
-## Security Issues
+## Security Vulnerability Reporting
 
-Please do not use public issues or pull requests for vulnerability reports.
+Do **not** report security vulnerabilities via public GitHub issues or pull requests.
 
-Use the process in the [Security Policy](SECURITY.md) instead.
+Please follow the private disclosure process detailed in the [Security Policy](SECURITY.md).

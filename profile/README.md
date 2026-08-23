@@ -9,9 +9,9 @@
 ![Chrome](https://img.shields.io/chrome-web-store/users/bjnaehckdlmehelmlgikjbojbdcanimg?label=Chrome&logo=googlechrome&color=4285F4&labelColor=2f3136&style=flat)
 ![Firefox](https://img.shields.io/amo/dw/peakurl?label=Firefox&logo=firefoxbrowser&color=FF7139&labelColor=2f3136&style=flat)
 
-PeakURL is an open-source platform for self-hosted link management, built for teams and businesses that want full control over their branded short links, click analytics, and dashboard — on their own infrastructure.
+PeakURL is an open-source platform for self-hosted link management, built for teams and businesses that require complete sovereignty over branded short links, click analytics, and administration on their own infrastructure.
 
-Designed to be straightforward to install, simple to operate, and compatible with standard PHP hosting, with no dependency on an external control plane.
+Architected for dependable self-hosted deployment: install directly on your domain, complete browser-based initialization, and administer your links through a dedicated dashboard without third-party dependencies.
 
 <p>
   <a href="https://github.com/PeakURL/PeakURL">
@@ -19,11 +19,11 @@ Designed to be straightforward to install, simple to operate, and compatible wit
   </a>
 </p>
 
-## Get Started
+## Resources and Deployment
 
-- [PeakURL Repository](https://github.com/PeakURL/PeakURL)
-- [PeakURL in a container](https://peakurl.org/docs/docker)
-- [Documentation](https://peakurl.org/docs)
+- [PeakURL Core Repository](https://github.com/PeakURL/PeakURL)
+- [Docker Deployment Guide](https://peakurl.org/docs/docker)
+- [Official Documentation](https://peakurl.org/docs)
 
 ## Official Extensions
 
@@ -33,7 +33,7 @@ Designed to be straightforward to install, simple to operate, and compatible wit
   </a>
   <a href="https://go.peakurl.org/get-wordpress-plugin"><strong>PeakURL for WordPress</strong></a>
   <br />
-  Integrate PeakURL with your WordPress site to create and manage short links directly from the WordPress admin.
+  Integrate PeakURL with WordPress sites to generate and manage short links directly from the WordPress administration panel.
 </p>
 
 <p>
@@ -42,7 +42,7 @@ Designed to be straightforward to install, simple to operate, and compatible wit
   </a>
   <a href="https://go.peakurl.org/get-chrome-extension"><strong>PeakURL Chrome Extension</strong></a>
   <br />
-  Shorten any page in one click from Chrome, without leaving your current tab.
+  Shorten URLs with a single click from Google Chrome without navigating away from the active tab.
 </p>
 
 <p>
@@ -51,24 +51,22 @@ Designed to be straightforward to install, simple to operate, and compatible wit
   </a>
   <a href="https://go.peakurl.org/get-firefox-addon"><strong>PeakURL Firefox Add-on</strong></a>
   <br />
-  Create and send short links to your PeakURL server directly from Firefox as you browse.
+  Generate and dispatch short links directly to your PeakURL server while browsing in Mozilla Firefox.
 </p>
 
-## What We Value
+## Engineering Principles
 
-- Practical, self-hosted software you can rely on
-- A clear product direction and readable, well-structured code
-- Documentation that takes you from installation to productive as quickly as possible
-- Long-term stability and maintainability over short-term feature churn
+- **Dependability**: Deliver resilient, self-hosted software built for high-uptime production environments.
+- **Architectural Clarity**: Maintain readable, maintainable, and well-structured source code across all services.
+- **Actionable Documentation**: Provide direct, step-by-step guidance from initial setup to production operations.
+- **Long-Term Stability**: Prioritize architectural integrity, backward compatibility, and system security over transient feature additions.
 
-## Community
+## Community and Contributions
 
-Whether you want to contribute code, report a bug, improve the documentation, or propose a new feature — start with the relevant project repository and its contribution guide.
-
-Organization-wide community standards are maintained through the GitHub community health files in this repository.
+To contribute code, report software defects, improve documentation, or submit feature requests, refer to the contribution guidelines in the respective project repositories.
 
 ## Contact
 
-- General inquiries: `hello@peakurl.org`
-- Security reports: `security@peakurl.org`
-- Code of conduct concerns: `conduct@peakurl.org`
+- **General Inquiries**: [Contact Form](https://peakurl.org/contact?topic=general&subject=General+inquiry)
+- **Security Disclosures**: [Submit a Security Report](https://peakurl.org/contact?topic=security&subject=Security+vulnerability+report)
+- **Community Inquiries**: [Contact Community Team](https://peakurl.org/contact?topic=community&subject=Community+inquiry)

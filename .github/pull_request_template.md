@@ -1,3 +1,7 @@
+## Related Issue
+
+Fixes # <!-- or Closes #, Relates to # -->
+
 ## Summary
 
 Describe the change clearly and directly.
@@ -16,7 +20,8 @@ Describe the change clearly and directly.
 
 ## Checklist
 
-- [ ] Scope is focused
+- [ ] Linked the corresponding GitHub Issue (e.g. `Fixes #123`)
+- [ ] Scope is focused and tested
 - [ ] Relevant documentation is updated
-- [ ] Verification steps are included
+- [ ] Verification steps (lint, format, test, build) were run
 - [ ] Security-sensitive changes were handled appropriately

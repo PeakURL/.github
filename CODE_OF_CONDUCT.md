@@ -1,51 +1,52 @@
 # Code of Conduct
 
-## Our Standard
+## Purpose and Standard
 
-PeakURL project spaces should remain respectful, constructive, and
-professional.
+The PeakURL organization is committed to providing a professional, respectful, and collaborative environment across all organization repositories and community spaces.
 
-Contributors, maintainers, and community members are expected to:
+All contributors, maintainers, and community participants are expected to adhere to the following standards:
 
-- communicate respectfully
-- focus on improving the work rather than attacking people
-- give technical feedback clearly and without hostility
-- respect different levels of experience
-- avoid bad-faith or disruptive behavior
+- **Professional Communication**: Maintain constructive, objective, and courteous dialogue across all technical interactions.
+- **Constructive Technical Feedback**: Provide actionable feedback centered on code, design, and architecture rather than individuals.
+- **Collaborative Focus**: Direct discussions toward software quality, system reliability, and sustainable open-source development.
+- **Inclusivity**: Respect diverse technical backgrounds, perspectives, and experience levels.
 
-## Unacceptable Behavior
+---
 
-The following conduct is not acceptable in PeakURL community spaces:
+## Prohibited Conduct
 
-- harassment, threats, or intimidation
-- discriminatory or hateful conduct
-- personal attacks or insulting language
-- bad-faith disruption of issues, pull requests, or discussions
-- publishing private information without permission
-- repeated hostile behavior after being asked to stop
+The following behaviors are strictly prohibited within all PeakURL organization repositories and forums:
 
-## Scope
+- Harassment, intimidation, derogatory language, or personal attacks.
+- Discriminatory, abusive, or exclusionary conduct in any form.
+- Disruptive, bad-faith interference with issue discussions, code reviews, or governance processes.
+- Unauthorized disclosure of non-public personal information.
+- Persistent engagement in inappropriate behavior following maintainer intervention.
 
-This Code of Conduct applies to official PeakURL GitHub repositories, issue
-trackers, pull requests, discussions, review threads, and related public
-project spaces.
+---
 
-## Enforcement
+## Policy Scope
 
-Maintainers may remove, edit, or reject comments, issues, pull requests, or
-other contributions that do not follow this Code of Conduct.
+This Code of Conduct applies to all spaces maintained under the PeakURL organization, including:
 
-Depending on severity, maintainers may also warn, temporarily restrict, or
-permanently ban participants from project spaces.
+- GitHub Issues and Pull Request discussions.
+- Code review comments and commit histories.
+- Any official communication channels representing the PeakURL organization.
 
-## Reporting
+---
 
-If you experience or witness unacceptable behavior, report it privately to
-`conduct@peakurl.org`.
+## Enforcement Responsibilities
 
-Please include enough detail for the maintainers to understand what happened,
-where it happened, and whether any immediate action is needed.
+Project maintainers are responsible for upholding and enforcing standards of acceptable conduct. Maintainers possess the authority to edit, redact, or delete comments, commits, issues, and pull requests that violate this policy.
 
-## Final Note
+Violations may result in formal warnings, temporary interaction restrictions, or permanent expulsion from organization repositories.
 
-Technical disagreement is normal. Disrespect is not.
+---
+
+## Reporting Incidents
+
+To report a Code of Conduct violation, please submit a confidential report via our secure contact form:
+
+- **Community Contact Portal**: [Contact Community Team](https://peakurl.org/contact?topic=community&subject=Community+inquiry)
+
+Please provide specific details regarding the incident, including links to relevant discussions, participants involved, and necessary context for maintainer review. All submissions will be evaluated confidentially.
