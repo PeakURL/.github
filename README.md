@@ -11,12 +11,13 @@
 
 PeakURL is an open-source, self-hosted link management platform for teams and businesses that want full control over their branded short links, click analytics, and dashboard on their own infrastructure.
 
-Built to be practical to install, straightforward to manage, and easy to run on your own domain.
+Built to be practical to install, straightforward to manage, localized in [26 languages](https://go.peakurl.org/p1855), and easy to run on your own domain.
 
 ## Get Started
 
 - [PeakURL Repository](https://github.com/PeakURL/PeakURL)
 - [Documentation](https://peakurl.org/docs)
+- [PeakURL in 26 Languages Announcement](https://go.peakurl.org/p1855)
 
 ## Community
 
