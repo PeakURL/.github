@@ -3,34 +3,36 @@
 ## Reporting a Security Vulnerability
 
 > [!IMPORTANT]
-> Do not report security vulnerabilities through public GitHub issues, or pull requests.
+> Please do not report security vulnerabilities through public GitHub issues, discussions, or pull requests.
 
-If you have identified a potential security vulnerability in any official PeakURL repository, please submit a confidential report through our secure contact portal:
+If you believe you have discovered a security vulnerability in any repository under the PeakURL organization, please disclose it responsibly through our confidential contact form:
 
-- **Security Report Portal**: [Submit a Security Report](https://peakurl.org/contact?topic=security&subject=Security+vulnerability+report)
+- **Security Portal**: [Submit a Security Report](https://peakurl.org/contact?topic=security&subject=Security+vulnerability+report)
 
-### Information to Include
+### Helpful Information to Include
 
-To facilitate prompt investigation and remediation, please provide the following information where available:
+To help us investigate and resolve the issue quickly, please include as much of the following information as possible:
 
-- A detailed description of the vulnerability and its potential impact.
-- The affected repository, branch, version, or deployment context.
-- Reproducible demonstration steps or a minimal proof-of-concept.
-- Any suggested mitigations, patches, or remediation steps.
-
----
-
-## Vulnerability Handling Procedure
-
-Upon receipt of a vulnerability report, project maintainers will execute the following procedure:
-
-1. **Acknowledgment**: Confirm receipt of the disclosure within 48 business hours.
-2. **Assessment**: Validate the vulnerability, determine its severity, and evaluate affected repositories.
-3. **Remediation**: Develop, review, and test security patches across supported versions.
-4. **Coordinated Disclosure**: Publish security releases through official distribution channels alongside appropriate remediation guidance.
+- A clear description of the vulnerability and its potential impact.
+- The affected repository, branch, release version, or environment context.
+- Step-by-step reproduction instructions or a minimal proof-of-concept.
+- Any suggested mitigations, patches, or workarounds, if known.
 
 ---
 
-## Policy Scope
+## Vulnerability Handling Process
 
-This policy applies to all official repositories maintained under the PeakURL organization unless a repository specifies a distinct, project-specific security policy.
+When a security report is submitted, maintainers will follow these steps:
+
+1. **Acknowledgment**: Confirm receipt of your report promptly, typically within a few business days.
+2. **Investigation**: Validate the findings, determine severity, and identify affected components.
+3. **Remediation**: Develop, review, and test patches across supported releases.
+4. **Coordinated Disclosure**: Release the security update and publish advisory notes with practical upgrade guidance.
+
+We appreciate the efforts of security researchers and community members who practice responsible disclosure, and we ask that you allow reasonable time for a fix to be published before discussing the vulnerability publicly.
+
+---
+
+## Scope
+
+This policy applies to all official repositories maintained under the PeakURL organization, unless an individual repository specifies its own security policy.
