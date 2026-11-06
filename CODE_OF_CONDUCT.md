@@ -1,52 +1,50 @@
 # Code of Conduct
 
-## Purpose and Standard
+## Our Standards
 
-The PeakURL organization is committed to providing a professional, respectful, and collaborative environment across all organization repositories and community spaces.
+The PeakURL organization is committed to providing a welcoming, professional, and collaborative environment across all our repositories and community spaces.
 
-All contributors, maintainers, and community participants are expected to adhere to the following standards:
+We ask everyone who participates in the project—contributors, maintainers, and community members—to uphold these shared standards:
 
-- **Professional Communication**: Maintain constructive, objective, and courteous dialogue across all technical interactions.
-- **Constructive Technical Feedback**: Provide actionable feedback centered on code, design, and architecture rather than individuals.
-- **Collaborative Focus**: Direct discussions toward software quality, system reliability, and sustainable open-source development.
-- **Inclusivity**: Respect diverse technical backgrounds, perspectives, and experience levels.
-
----
-
-## Prohibited Conduct
-
-The following behaviors are strictly prohibited within all PeakURL organization repositories and forums:
-
-- Harassment, intimidation, derogatory language, or personal attacks.
-- Discriminatory, abusive, or exclusionary conduct in any form.
-- Disruptive, bad-faith interference with issue discussions, code reviews, or governance processes.
-- Unauthorized disclosure of non-public personal information.
-- Persistent engagement in inappropriate behavior following maintainer intervention.
+- **Respectful Communication**: Keep conversations courteous, considerate, and constructive.
+- **Constructive Technical Feedback**: Focus feedback on code, architecture, and ideas rather than individuals.
+- **Collaborative Mindset**: Direct discussions toward improving software quality, reliability, and the user experience.
+- **Inclusivity**: Be welcoming of diverse backgrounds, skill levels, and perspectives.
 
 ---
 
-## Policy Scope
+## Unacceptable Behavior
 
-This Code of Conduct applies to all spaces maintained under the PeakURL organization, including:
+To ensure a productive and safe community, the following behaviors are not acceptable in any PeakURL repository or discussion space:
 
-- GitHub Issues and Pull Request discussions.
-- Code review comments and commit histories.
-- Any official communication channels representing the PeakURL organization.
-
----
-
-## Enforcement Responsibilities
-
-Project maintainers are responsible for upholding and enforcing standards of acceptable conduct. Maintainers possess the authority to edit, redact, or delete comments, commits, issues, and pull requests that violate this policy.
-
-Violations may result in formal warnings, temporary interaction restrictions, or permanent expulsion from organization repositories.
+- Harassment, intimidation, personal attacks, or derogatory remarks.
+- Discriminatory, abusive, or exclusionary language and conduct.
+- Trolling, insulting comments, or bad-faith disruption of discussions and code reviews.
+- Publishing private personal information without explicit consent.
+- Repeated inappropriate behavior after maintainers have asked you to stop.
 
 ---
 
-## Reporting Incidents
+## Scope
 
-To report a Code of Conduct violation, please submit a confidential report via our secure contact form:
+This Code of Conduct applies to all official spaces managed by the PeakURL organization, including:
+
+- Repositories, GitHub Issues, Discussions, and Pull Requests.
+- Code review feedback, commit messages, and collaborative working areas.
+- Official communication channels representing the project.
+
+---
+
+## Enforcement
+
+Project maintainers are responsible for clarifying and upholding these community standards. When behavior does not align with this Code of Conduct, maintainers will take fair and appropriate action, which may include editing or removing comments, closing discussions, issuing warnings, or temporarily or permanently moderating participation in organization repositories.
+
+---
+
+## Reporting Concerns
+
+If you experience or witness behavior that violates this Code of Conduct, please submit a confidential report through our contact portal:
 
 - **Community Contact Portal**: [Contact Community Team](https://peakurl.org/contact?topic=community&subject=Community+inquiry)
 
-Please provide specific details regarding the incident, including links to relevant discussions, participants involved, and necessary context for maintainer review. All submissions will be evaluated confidentially.
+Please include relevant details, such as links to discussions, individuals involved, and any background that helps us understand the situation. All reports will be reviewed promptly and handled with confidentiality and care.
