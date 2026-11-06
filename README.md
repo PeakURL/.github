@@ -1,27 +1,23 @@
-# PeakURL
+# PeakURL Organization Repository
 
-[![Release](https://github.com/PeakURL/PeakURL/actions/workflows/release-r2.yml/badge.svg)](https://github.com/PeakURL/PeakURL/actions/workflows/release-r2.yml)
-[![Containers](https://github.com/PeakURL/containers/actions/workflows/publish-image.yml/badge.svg)](https://github.com/PeakURL/containers/actions/workflows/publish-image.yml)
-[![CLI](https://github.com/PeakURL/CLI/actions/workflows/publish.yml/badge.svg)](https://github.com/PeakURL/CLI/actions/workflows/publish.yml)
-![Docker](https://img.shields.io/docker/pulls/peakurl/peakurl?label=Docker&logo=docker&color=2496ED&labelColor=2f3136&style=flat)
-![NPM](https://img.shields.io/npm/dm/peakurl?label=NPM&logo=npm&color=CB3837&labelColor=2f3136&style=flat)
-![WordPress](https://img.shields.io/wordpress/plugin/dt/peakurl?label=WordPress&logo=wordpress&color=21759B&labelColor=2f3136&style=flat)
-![Chrome](https://img.shields.io/chrome-web-store/users/bjnaehckdlmehelmlgikjbojbdcanimg?label=Chrome&logo=googlechrome&color=4285F4&labelColor=2f3136&style=flat)
-![Firefox](https://img.shields.io/amo/dw/peakurl?label=Firefox&logo=firefoxbrowser&color=FF7139&labelColor=2f3136&style=flat)
+This repository (`PeakURL/.github`) maintains the organization-wide profile, community health files, default issue templates, and shared contributing guidelines for the [PeakURL](https://github.com/PeakURL) organization.
 
-PeakURL is an open-source, self-hosted link management platform for teams and businesses that want full control over their branded short links, click analytics, and dashboard on their own infrastructure.
+When an individual repository in the organization does not define its own community files, GitHub automatically uses the templates and policies provided here.
 
-Built to be practical to install, straightforward to manage, localized in [26 languages](https://go.peakurl.org/p1855), and easy to run on your own domain.
+## Shared Community Guidelines
 
-## Get Started
+- [Contributing Guidelines](CONTRIBUTING.md) - Shared contribution standards, issue workflow, testing expectations, and code quality principles.
+- [Code of Conduct](CODE_OF_CONDUCT.md) - Standards for respectful, inclusive, and collaborative community participation.
+- [Security Policy](SECURITY.md) - Procedures for privately disclosing security vulnerabilities.
+- [Support Guidelines](SUPPORT.md) - Guidance on finding documentation, reporting bugs, proposing features, and reaching maintainers.
 
-- [PeakURL Repository](https://github.com/PeakURL/PeakURL)
-- [Documentation](https://peakurl.org/docs)
-- [PeakURL in 26 Languages Announcement](https://go.peakurl.org/p1855)
+## Project Resources
 
-## Community
+- **Core Application**: [PeakURL/PeakURL](https://github.com/PeakURL/PeakURL) - The self-hosted, open-source link management platform.
+- **Documentation**: [peakurl.org/docs](https://peakurl.org/docs) - Installation, configuration, and API reference guides.
+- **Official Website**: [peakurl.org](https://peakurl.org) - Overview, release notes, and community links.
+- **Organization Profile**: The public GitHub organization profile is maintained in [`profile/README.md`](profile/README.md).
 
-- [Contributing Guide](CONTRIBUTING.md)
-- [Security Policy](SECURITY.md)
-- [Support Guide](SUPPORT.md)
-- [Code of Conduct](CODE_OF_CONDUCT.md)
+## Project-Specific Documentation
+
+Individual repositories within the PeakURL organization may provide project-specific contribution, development, or testing documentation tailored to their specific technology stack. Where repository-specific documentation exists, it takes precedence over these organization defaults.
