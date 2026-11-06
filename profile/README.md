@@ -9,9 +9,9 @@
 ![Chrome](https://img.shields.io/chrome-web-store/users/bjnaehckdlmehelmlgikjbojbdcanimg?label=Chrome&logo=googlechrome&color=4285F4&labelColor=2f3136&style=flat)
 ![Firefox](https://img.shields.io/amo/dw/peakurl?label=Firefox&logo=firefoxbrowser&color=FF7139&labelColor=2f3136&style=flat)
 
-PeakURL is an open-source platform for self-hosted link management, built for teams and businesses that require complete sovereignty over branded short links, click analytics, and administration on their own infrastructure.
+PeakURL is an open-source, self-hosted URL shortener and link management platform. It gives individuals, teams, and organizations full ownership of their short links, click analytics, and branding on their own domain without relying on hosted link shortening services.
 
-Architected for dependable self-hosted deployment: install directly on your domain, complete browser-based initialization, and administer your links through a dedicated dashboard localized in [26 languages](https://go.peakurl.org/p1855) without third-party dependencies.
+Install PeakURL directly on your own infrastructure with a straightforward setup wizard, then manage your links through a modern dashboard localized in [26 languages](https://go.peakurl.org/p1855).
 
 <p>
   <a href="https://github.com/PeakURL/PeakURL">
@@ -19,12 +19,20 @@ Architected for dependable self-hosted deployment: install directly on your doma
   </a>
 </p>
 
-## Resources and Deployment
+## Key Features
 
-- [PeakURL Core Repository](https://github.com/PeakURL/PeakURL)
-- [Official Documentation](https://peakurl.org/docs)
-- [Docker Deployment Guide](https://peakurl.org/docs/docker)
-- [PeakURL in 26 Languages Announcement](https://go.peakurl.org/p1855)
+- **Branded Short Links**: Create, customize, and manage short links on your own domain.
+- **Privacy-Friendly Analytics**: Monitor visits, referrers, devices, platforms, and geographic locations without external tracking scripts.
+- **Modern Dashboard**: Manage links, users, roles, and settings through an intuitive dashboard available in 26 languages.
+- **Developer-Friendly REST API**: Automate link creation and management using clean REST endpoints and secure API keys.
+- **Deployment Flexibility**: Run on standard PHP web hosting, Docker containers, or your own virtual servers.
+
+## Resources and Documentation
+
+- [PeakURL Repository](https://github.com/PeakURL/PeakURL) - Core web application and REST API.
+- [Documentation](https://peakurl.org/docs) - Installation guides, API reference, and configuration options.
+- [Docker Deployment Guide](https://peakurl.org/docs/docker) - Fast deployment using Docker Compose.
+- [Release Announcement (26 Languages)](https://go.peakurl.org/p1855) - Overview of internationalization and localized interfaces.
 
 ## Official Extensions
 
@@ -34,7 +42,7 @@ Architected for dependable self-hosted deployment: install directly on your doma
   </a>
   <a href="https://go.peakurl.org/get-wordpress-plugin"><strong>PeakURL for WordPress</strong></a>
   <br />
-  Integrate PeakURL with WordPress sites to generate and manage short links directly from the WordPress administration panel.
+  Integrate PeakURL with WordPress to create and manage short links directly from the WordPress administration panel.
 </p>
 
 <p>
@@ -43,7 +51,7 @@ Architected for dependable self-hosted deployment: install directly on your doma
   </a>
   <a href="https://go.peakurl.org/get-chrome-extension"><strong>PeakURL Chrome Extension</strong></a>
   <br />
-  Shorten URLs with a single click from Google Chrome without navigating away from the active tab.
+  Create short links quickly from Google Chrome without leaving your active tab.
 </p>
 
 <p>
@@ -52,22 +60,22 @@ Architected for dependable self-hosted deployment: install directly on your doma
   </a>
   <a href="https://go.peakurl.org/get-firefox-addon"><strong>PeakURL Firefox Add-on</strong></a>
   <br />
-  Generate and dispatch short links directly to your PeakURL server while browsing in Mozilla Firefox.
+  Create short links directly with your PeakURL instance while browsing in Mozilla Firefox.
 </p>
 
 ## Engineering Principles
 
-- **Dependability**: Deliver resilient, self-hosted software built for high-uptime production environments.
-- **Architectural Clarity**: Maintain readable, maintainable, and well-structured source code across all services.
-- **Actionable Documentation**: Provide direct, step-by-step guidance from initial setup to production operations.
-- **Long-Term Stability**: Prioritize architectural integrity, backward compatibility, and system security over transient feature additions.
+- **Dependability**: Build resilient, self-hosted software designed for stable, long-term production use.
+- **Architectural Clarity**: Keep codebases readable, modular, and maintainable without unnecessary layers or dead code.
+- **Actionable Documentation**: Provide clear, practical guides from initial installation to daily maintenance.
+- **Stability and Security**: Prioritize safe upgrades, clean database migrations, and defensive security over rapid, unvetted additions.
 
-## Community and Contributions
+## Community and Contributing
 
-To contribute code, report software defects, improve documentation, or submit feature requests, refer to the contribution guidelines in the respective project repositories.
+We welcome contributions across the PeakURL organization. To report bugs, propose features, improve documentation, or submit code, please review our shared [Contributing Guidelines](https://github.com/PeakURL/.github/blob/main/CONTRIBUTING.md) and the contributor guide in the target repository.
 
 ## Contact
 
 - **General Inquiries**: [Contact Form](https://peakurl.org/contact?topic=general&subject=General+inquiry)
 - **Security Disclosures**: [Submit a Security Report](https://peakurl.org/contact?topic=security&subject=Security+vulnerability+report)
-- **Community Inquiries**: [Contact Community Team](https://peakurl.org/contact?topic=community&subject=Community+inquiry)
+- **Community Team**: [Contact Community Team](https://peakurl.org/contact?topic=community&subject=Community+inquiry)
