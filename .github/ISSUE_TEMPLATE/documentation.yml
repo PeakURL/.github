@@ -1,14 +1,18 @@
 name: Documentation Improvement
-description: Report a documentation issue or propose a documentation improvement.
+description: Report a documentation issue or propose an improvement.
 title: "[Docs]: "
 labels:
   - documentation
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping us improve PeakURL documentation!
   - type: input
     id: repository
     attributes:
-      label: Repository
-      description: Which PeakURL repository or documentation area is affected?
+      label: Repository or Documentation Area
+      description: Which PeakURL repository or documentation page is affected?
       placeholder: PeakURL/PeakURL or peakurl.org/docs
     validations:
       required: true
@@ -16,18 +20,18 @@ body:
     id: issue
     attributes:
       label: Current Issue
-      description: What is unclear, missing, or incorrect?
+      description: What is unclear, missing, or outdated?
     validations:
       required: true
   - type: textarea
     id: change
     attributes:
       label: Suggested Improvement
-      description: What would make the documentation more useful?
+      description: What changes would make the documentation more helpful?
     validations:
       required: true
   - type: textarea
     id: context
     attributes:
       label: Additional Context
-      description: Links, screenshots, or affected audiences.
+      description: Links, screenshots, or additional references.

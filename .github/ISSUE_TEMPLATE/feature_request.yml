@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please describe the problem and the improvement you want to see. Keep requests practical and focused.
+        Thank you for suggesting an improvement! Please describe the use case and the change you would like to see.
   - type: input
     id: repository
     attributes:
@@ -20,23 +20,23 @@ body:
     id: problem
     attributes:
       label: Problem
-      description: What problem are you trying to solve?
+      description: A clear description of the problem you are trying to solve or what is missing.
     validations:
       required: true
   - type: textarea
     id: proposal
     attributes:
       label: Proposed Solution
-      description: Describe the change you would like to see.
+      description: A clear description of what you would like to happen or how the feature should work.
     validations:
       required: true
   - type: textarea
     id: alternatives
     attributes:
       label: Alternatives Considered
-      description: Note any alternatives you considered.
+      description: Any alternative solutions or workarounds you have considered.
   - type: textarea
     id: context
     attributes:
       label: Additional Context
-      description: Use cases, screenshots, constraints, or related discussions.
+      description: Any other context, use cases, screenshots, or related discussions.

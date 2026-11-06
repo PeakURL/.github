@@ -2,13 +2,13 @@ blank_issues_enabled: false
 contact_links:
   - name: Official Documentation
     url: https://peakurl.org/docs
-    about: Installation, product guides, and API reference documentation.
+    about: Installation guides, configuration options, and API reference documentation.
   - name: Security Vulnerability Report
     url: https://peakurl.org/contact?topic=security&subject=Security+vulnerability+report
-    about: Confidential vulnerability disclosures for maintainer review.
+    about: Confidential vulnerability reports for maintainer review.
   - name: Technical Support
     url: https://peakurl.org/contact?topic=support&subject=Support+inquiry
-    about: Assistance with deployment, configuration, or environment setup.
+    about: Help with deployment, configuration, or general questions.
   - name: Organization Support Guidelines
     url: https://github.com/PeakURL/.github/blob/main/SUPPORT.md
-    about: Review organization support policies before opening an issue.
+    about: Overview of support resources and recommended communication channels.
